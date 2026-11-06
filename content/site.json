@@ -35,6 +35,11 @@
       "value": "3D",
       "label_it": "Previz e programmazione offline",
       "label_en": "Previz and offline programming"
+    },
+    {
+      "value": "Game Engines - Virtual Production",
+      "label_it": "Unreal Engine 5, Blender, DaVinci Resolve",
+      "label_en": "Unreal Engine 5, Blender, DaVinci Resolve"
     }
   ],
   "skills": [
